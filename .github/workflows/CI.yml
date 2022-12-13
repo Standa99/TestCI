@@ -2,9 +2,12 @@ name: CI
 
 on:
   push:
-    branches: [ "devCI" ]
+    branches: 
+      - devCI 
   pull_request:
-    branches: [ "devCI" ]
+    branches:
+      - devCI 
+    
 
 jobs:
   build:
